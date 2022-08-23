@@ -1,17 +1,17 @@
-#container{
+body{
+    height: 100%;
+    margin:0;
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    width: 960px;
-    height: 960px;
 }
 
-.square{
-    border:1px solid black;
-    display: block;
-    width: 32px;
-    height: 32px;
+
+#container{
+    display: flex;
+    width: 660px;
+    height: 660px;
+    margin:24px;
 }
 
 
@@ -19,4 +19,12 @@
     background-color: red;
 }
 
-/* test */
+
+button{
+    padding: 8px;
+    border-radius: 8px;
+    background-color:rgb(0, 119, 255);
+    color:white;
+    border: none;
+    cursor: pointer;
+}
